@@ -3,14 +3,23 @@ var generateBtn = document.querySelector("#generate");
 
 
 //Arrays
-var number = '1234567890'.split('');
-var lowerCase = 'abcdefghijklmnopqrstuvwxyz'.split('');
-var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-var specialCharacters = '!#$%&()*+,-./:;<=>?@[]^_{|}~'.split('');
+const pNumeric = '1234567890'.split('');
+const lowerCase = 'abcdefghijklmnopqrstuvwxyz'.split('');
+const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const specialCharacters = '!#$%&()*+,-./:;<=>?@[]^_{|}~'.split('');
 
+const useLowerCase = confirm('Do you want lower case letters?');
+const useUpperCase = confirm('Do you want upper case letters?');
+const useSpecialCharacters = confirm('Do you want special characters?');
+const usepNumeric = confirm('Do you want to add numbers?')
 
+let password = [];
 
-
+if (useLowerCase) {
+  for (let i = 0; i < 2; i++) {
+    password.push('randomCharacter');
+  }
+}
 
 
 
