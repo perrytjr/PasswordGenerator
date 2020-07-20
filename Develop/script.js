@@ -8,23 +8,13 @@ const lowerCase = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const specialCharacters = '!#$%&()*+,-./:;<=>?@[]^_{|}~'.split('');
 
-const useLowerCase = confirm('Do you want lower case letters?');
-const useUpperCase = confirm('Do you want upper case letters?');
-const useSpecialCharacters = confirm('Do you want special characters?');
-const usepNumeric = confirm('Do you want to add numbers?')
 
-let password = [];
-
-if (useLowerCase) {
-  for (let i = 0; i < 2; i++) {
-    password.push('randomCharacter');
-  }
-}
+//variables
 
 
 
 
-// Write password to the #password input
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -32,6 +22,23 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+//passwordlength is obtained from user
+function generatePassword(){
+ 
+// user picks length of password
+let pLength = parseInt(prompt('Please pick length of password between 8 and 128 characters!'));
+
+// if user picks length of password less than 8 or greater that 128 user is asked to pick between 8 and 128
+while(pLength < 8 || pLength > 128 || isNaN(pLength)) {
+  pLength = prompt('Remember password is between 8 and 128 characters long. Please choose again.');
+}
+
+console.log('Password Length is ' + pLength);
+
+
+}
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
