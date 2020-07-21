@@ -3,7 +3,7 @@
 ## Overview 
 
 
-![](Assets/Screen Shot 2020-07-21 at 9.13.25 AM.png)
+![](https://github.com/perrytjr/PasswordGenerator/blob/master/Assets/Screen%20Shot%202020-07-21%20at%209.13.25%20AM.png)
 
 I created an application that generates a random password based on user-selected criteria. This app will run in the browser using HTML, CSS, powered by JavaScript. 
 
@@ -15,5 +15,5 @@ When a user clicks on the generate password button. A series of prompts will app
 
 # Link
 
-Please use the following link to access my Password Generator site: https://github.com/perrytjr/PasswordGenerator
+Please use the following link to access my Password Generator site: https://github.com/perrytjr/PasswordGenerator/Develop
 
