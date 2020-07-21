@@ -15,5 +15,5 @@ When a user clicks on the generate password button. A series of prompts will app
 
 # Link
 
-Please use the following link to access my Password Generator site: https://github.com/perrytjr/PasswordGenerator/Develop
+Please use the following link to access my Password Generator site: https://perrytjr.github.io/PasswordGenerator/Develop/
 
