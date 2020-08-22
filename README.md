@@ -5,6 +5,7 @@
 
 ![](https://github.com/perrytjr/PasswordGenerator/blob/master/Assets/Screen%20Shot%202020-07-21%20at%209.13.25%20AM.png)
 
+![](https://github.com/perrytjr/PasswordGenerator/blob/master/Assets/Screen%20Shot%202020-08-22%20at%209.49.02%20AM.png)
 I created an application that generates a random password based on user-selected criteria. This app will run in the browser using HTML, CSS, powered by JavaScript. 
 
 ## How it functions
