@@ -17,3 +17,6 @@ When a user clicks on the generate password button. A series of prompts will app
 
 Please use the following link to access my Password Generator site: https://perrytjr.github.io/PasswordGenerator/Develop/
 
+# Contact
+
+Linkedin: https://linkedin.com/in/perry-theobald-42450241
